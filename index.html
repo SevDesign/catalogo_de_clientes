@@ -34,12 +34,21 @@
             box-shadow: 0 10px 30px rgba(139, 69, 19, 0.3);
         }
 
+        .container-logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         .logo-container {
             display: flex;
             align-items: center;
             justify-content: center;
             background-color: #d1b48c;
             margin-bottom: 20px;
+            border-radius: 50%;
+            min-width: 240px;
+            min-height: 240px;
         }
 
         .logo{
@@ -232,15 +241,17 @@
 <body>
 
     <div class="container">
+        <div class="container-logo">
+            <div class="logo-container">
+                <img class="logo" src="vinibrownie/Design sem nome (2).png" alt="">
+            </div>
+        </div>
+
         <div class="header">
             <div class="brand-name">vinibrownie</div>
             <div class="tagline">Doçura artesanal em cada pedaço</div>
-        </div>
-
-        <div class="logo-container">
-            <img class="logo" src="vinibrownie/logo.png" alt="">
-        </div>
-
+        </div>    
+        
         <section id="identidade" class="section">
             <h2 class="section-title">🎯 Identidade da Marca</h2>
             <div class="brand-personality">
